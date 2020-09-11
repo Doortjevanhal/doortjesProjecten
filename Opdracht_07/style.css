@@ -1,0 +1,15 @@
+body {
+  background: rgb(117, 154, 167);
+  color: rgb(44, 43, 49);
+  font: 700;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.black-border {
+  border: 2px rgba(39, 39, 39, 0.486) solid;
+}
+#green-background,
+h2,
+h3 {
+  background-color: rgb(15, 146, 15);
+}
