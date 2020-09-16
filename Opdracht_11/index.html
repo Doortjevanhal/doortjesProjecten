@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="auto" content="Doortje" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Website Try-Out</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section></section>
+      <article >
+        <form name="contact" method="POST" data-netlify="true "action="/action_page.php" autocomplete="on">
+          <fieldset class= "red-border blue-background">
+            <legend><h2>Vraag een Recept aan voor een Picknick:</h2></legend>
+<div class="form-field ">
+          
+            <!-- NAME-->
+            <label for="fname">Voornaam:</label><br />
+            <input
+            class= "red-border"
+              type="text"
+              id="fname"
+              name="fname"
+              value="Naam"
+              size="50"
+              autocomplete="off"
+              autofocus
+            /><br /><br />
+            <label  for="lname">Achternaam:</label><br />
+            <input
+            class= "red-border"
+              type="text"
+              id="lname"
+              name="lname"
+              value="Achternaam"
+              size="50"
+              autocomplete="off"
+              autofocus
+            /><br />         <br />
+            <label  for="birthday">Geboortedatum:</label>
+            <br />
+            <input class= "" type="date" id="birthday" name="birthday"     >
+            <br />         <br />
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <br />
+                    <!--birthday-->
+            <br />
+            <label for="email">Wat is uw emailadres:</label>
+            <input   class= "red-border" type="email" id="email" name="email" size="33">
+            <!--EMAIL-->
+
+            <br><br>
+                <label for="gender">Geslacht:</label>
+                <br><br>
+            <input
+            class= "red-border"
+              type="radio"
+              id="male"
+              name="gender"
+              value="male"
+              size="50"
+              autocomplete="off"
+              size="100">   
+              
+            <label for="male">Man</label>
+            <input
+            class= "red-border"
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+              size="50"
+              autocomplete="off"
+            />
+            <label for="female">Vrouw</label>
+            <input
+            class= "red-border"
+              type="radio"
+              id="other"
+              name="gender"
+              value="other"
+              size="50"
+              autocomplete="off"
+            />
+            <label for="other">Anders</label>
+    <br> <br>
+            <!-- GESLACHT-->
+            <label for="Keuze">Kies je Keuken:</label>
+         
+
+            <br />       <br />
+            <select class= "red-border" id="Europees" name="Europees" size="1">
+              <option value="Europees">Europees</option>
+              <option value="Aziatisch">Aziatisch</option>
+              <option value="Afrikaans">Afrikaans</option>
+              <option value="Zuid-Amerikaans">Zuid-Amerikaans</option>
+            </select>
+
+            <br><br>
+            <!-- KEUKEN--> 
+
+       
+              <label  for="favcolor">Kleur picknick kleed:</label>
+              <input class= "red-border" type="color" id="favcolor" name="favcolor" />
+
+
+
+<!-- KLEUR-->
+
+
+<br><br>
+
+<label  >Ingredienten:</label><br>
+
+            <input
+            type="checkbox"
+            id="ingredient01"
+            name="ingredient01"
+            value="Vlees"
+          />
+          <label for="ingredient01">Vlees</label><br />
+          <input
+
+        
+            type="checkbox"
+            id="ingredient02"
+            name="ingredient02"
+            value="Vis"
+          />
+          <label for="ingredient02"> Vis</label><br />
+          <input
+      
+            type="checkbox"
+            id="ingredient03"
+            name="ingredient03"
+            value="Vega"
+          />
+          <label for="ingredient03"> Vega</label>
+          <br />
+
+            <!-- VOORKEUR-->
+
+
+            <p>
+              <textarea 
+              class= "red-border"
+                name="message"
+                rows="10"
+                cols="30"
+                size="50"
+                autocomplete="off"
+              >
+
+         
+Andere wensen of opmerkingen
+    </textarea
+              >
+            </p>
+
+
+  <!-- BIO-->
+            <label for="myfile">Laat ons weten welke gerechten je zelf al hebt gemaakt.</label><br> Deel hier
+            <input      type="file" id="myfile" name="myfile" >
+
+        <!-- FILE-->
+            <br /><br>
+            <label   for="fname"><p>Nog geen keuze gemaakt voor een recept om zelf te maken? </p>Kijk dan eens op deze leuke receptenwebsite:</label>
+            <button   class= "red-border" type="button" onclick="alert('//www.ah.nl/allerhande')"></p>
+              Allerhande</button
+            ><br />
+            <!-- LINK-->
+            <br />
+            <label  >Verzoek tot verwerking </label>
+            <input  class= "red-border"list="browsers" name="browser" size="50" />
+            <datalist id="browsers">
+              <option value="Spoed Reactie"> </option>
+              <option value="Reactie binnen 24h"> </option>
+              <option value="Reactie per mail"> </option>
+              <option value="Reactie per post"> </option>
+            </datalist>
+            <br />
+            <span class="submit">
+            <input 
+              type="image"
+              src="submit.png"
+              alt="Submit"
+              type="submit"
+              value="Submit">
+            </span>
+            </fieldset></div>
+
+        </form> 
+      </article> 
+      <aside></aside>
+    </main>
+    <footer>
+ 
+    </footer>
+  </body>
+</html>
