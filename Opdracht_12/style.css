@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(213, 202, 224);
+}
+
+.top-bar {
+  border: black solid 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.blogpost {
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-content: space-between;
+  flex-flow: row wrap;
+  background-color: rgba(255, 127, 80, 0.445);
+}
+.blogpost_b {
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+
+  flex-flow: row wrap;
+  order: -1;
+  background-color: rgba(247, 108, 57, 0.788);
+  justify-content: center;
+}
+
+.blogpost p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding-left: 100px;
+  font-style: oblique;
+  color: rgb(45, 34, 53);
+}
+
+.blogpost_b p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(2, 104, 19);
+  text-transform: uppercase;
+}
