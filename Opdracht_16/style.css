@@ -1,0 +1,399 @@
+body {
+  margin: 120px 100px;
+  background: url(/Opdracht_16/background01.jpg);
+  text-align: center;
+  background-position-x: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 6fr 7fr;
+  grid-template-rows: 2fr 20fr 2fr;
+  grid-gap: 5px;
+  width: 100%;
+
+  background-color: rgba(13, 103, 139, 0.26);
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-bottom: 15px;
+}
+nav {
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  min-width: 200px;
+
+  border: rgba(0, 0, 0, 0.753) solid 3px;
+  background: rgba(124, 8, 105, 0.349);
+}
+article {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  max-width: 80%;
+  min-width: 750px;
+
+  border: rgba(0, 0, 0, 0.753) solid 3px;
+}
+main {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  margin: 0px;
+  min-width: 900px;
+
+  border: rgba(0, 0, 0, 0.753) solid 3px;
+  background: rgba(124, 8, 105, 0.692);
+}
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  margin-top: 15px;
+
+  border: wheat solid 2px;
+  background: black;
+}
+
+/* END GRID */
+/* START HEADER */
+
+.header {
+  border: wheat solid 1px;
+  background-color: black;
+
+  padding: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.logo h2 {
+  padding: 0px;
+  margin: 0px;
+
+  border: 1px solid wheat;
+  padding: 2px 105px;
+
+  font-style: bold;
+  font-size: 125px;
+  text-align: center;
+}
+/*END HEADER */
+/* START NAV*/
+.navigation {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+
+  background: rgb(124, 8, 105);
+  border: black solid 2px;
+}
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  padding: 0px;
+  margin: 0px;
+
+  height: 100%;
+  width: 100%;
+
+  border-width: 1px black solid;
+  text-decoration: none;
+}
+li {
+  display: flex;
+  justify-content: center;
+
+  margin: 25px;
+
+  height: 8%;
+
+  border: black solid 1px;
+  background: wheat;
+}
+.navigation a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  padding-top: 50px;
+
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+/* END NAV*/
+
+/* START ARTICLE*/
+
+.article-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: 0px;
+  padding: 0px;
+
+  height: 100%;
+  min-width: 500px;
+
+  background-color: rgba(141, 87, 109, 0.856);
+  color: thistle;
+}
+
+.plaatje {
+  height: 30%;
+}
+
+.article {
+  font-size: 50px;
+}
+
+.article-text {
+  margin-bottom: 60px;
+  line-height: 0.35em;
+
+  color: thistle;
+  font-size: 35px;
+}
+
+.about li {
+  background: rgba(124, 8, 105, 0.404);
+  border: none;
+}
+
+.contact-form {
+  font-size: 25px;
+  margin-top: 15px;
+}
+/* END ARTICLE*/
+/* START MAIN*/
+
+.main {
+  display: flex;
+  flex-flow: wrap row;
+  align-content: flex-start;
+
+  height: 100%;
+
+  max-width: 100%;
+  min-width: 1000px;
+
+  background-color: rgba(126, 252, 0, 0);
+  line-height: 1.3em;
+}
+
+.main-index {
+  max-width: 50%;
+  line-height: 2.5em;
+}
+
+.text-box {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  margin: 0;
+
+  color: rgb(73, 5, 94);
+  border: rgb(22, 19, 19) solid;
+  border-width: 2px 6px;
+  background-color: wheat;
+
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.form-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap row;
+
+  margin: 20px;
+
+  max-width: 500px;
+  height: 200px;
+
+  border: 0.5px rgb(73, 5, 94) solid;
+  background-color: wheat;
+}
+
+.form-service {
+  display: flex;
+  flex-flow: wrap column;
+
+  padding-left: 20px;
+  margin: 15px;
+
+  height: 500px;
+  width: 400px;
+
+  border: 0.5px rgb(73, 5, 94) solid;
+  background-color: wheat;
+}
+
+.form-images {
+  height: 500px;
+  width: 400px;
+
+  background-color: rgba(73, 5, 94, 0.5);
+}
+
+h4 {
+  display: flex;
+  font-size: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: rgb(73, 5, 94);
+}
+
+.box01 {
+  display: flex;
+  flex-flow: wrap column;
+
+  font-size: 30px;
+  margin: 0;
+}
+.box02 {
+  display: flex;
+  flex-flow: wrap column;
+
+  font-size: 30px;
+  margin: 0;
+}
+
+.box03 {
+  display: inline-block;
+
+  font-size: 30px;
+  margin: 0;
+}
+.box04 {
+  display: flex;
+  flex-flow: wrap column;
+
+  font-size: 30px;
+}
+input,
+textarea,
+select {
+  background-color: rgb(190, 165, 175);
+  border: rgba(0, 0, 0, 0.575) solid 1px;
+}
+.form-index .button {
+  margin: 15px 15px 25px 10px;
+
+  padding-left: 10px;
+
+  width: 80px;
+  height: 80px;
+
+  font-size: 20px;
+}
+
+.form-service .button {
+  height: 20px;
+  padding: 0 0 0 35px;
+
+  position: relative;
+  top: 80px;
+  left: 150px;
+
+  width: 30%;
+  height: 62px;
+  font-size: 25px;
+}
+.button {
+  display: flex;
+  background-color: rgb(255, 231, 187);
+  border: 1px black solid;
+}
+
+a:hover .button {
+  margin: 2px;
+  background-color: rgb(255, 208, 0);
+  font-style: oblique;
+}
+/* checkbox style niet aan te passen*/
+input[type="checkbox"] {
+  visibility: visible;
+}
+#option01 #option02 #sub-optie-a #sub-optie-b{background: none; }
+/* END checkbox style niet aan te passen*/
+
+details {
+  background-color: rgba(245, 222, 179, 0.781);
+  padding: 5px;
+}
+
+/* START FOOTER*/
+
+.footer {
+  font-size: 30px;
+  padding-top: 60px;
+}
+/* BETER CLASS dan ID*/
+#privacy01 {
+  color: wheat;
+  position: relative;
+  float: right;
+  background: linear-gradient(90deg, black, rgb(124, 8, 105));
+  font-size: 40px;
+  width: 30%;
+  padding: 10px;
+}
+
+#privacy02 {
+  color: wheat;
+  position: relative;
+  float: right;
+  background: linear-gradient(90deg, rgb(124, 8, 105), black);
+  font-size: 40px;
+  width: 30%;
+  padding: 10px;
+}
+/*END FOOTER*/
+/*START a*/
+a {
+  text-decoration: none;
+  color: rgb(124, 8, 105);
+}
+
+a:visited {
+  color: rgb(9, 124, 145);
+}
+
+article a:hover {
+  border: black solid 3px;
+  background: rgb(124, 8, 105);
+  width: 100%;
+  font-style: oblique;
+}
+
+nav a:hover {
+  font-style: oblique;
+  border: solid 2px black;
+  width: 100%;
+}
+header a:hover  {
+  color: rgb(255, 208, 0);
+}
+footer a:hover  {
+  color: rgb(255, 208, 0);
+}
+
+@media (max-width: 1000px) {
+  body {
+    background: blue;
+  }
+}
