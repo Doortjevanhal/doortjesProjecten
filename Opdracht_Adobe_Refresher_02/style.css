@@ -1,0 +1,151 @@
+
+* 
+{ 
+border: solid #ffffff00 3px;
+margin: 0; 
+padding: 0;
+font-family: Helvetica;
+font-size: 21px;
+font-weight: bold;
+}
+
+.collect-box 
+{ 
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+width:1000px;
+height: 400px;
+}
+
+.container
+{
+border: 2.5px solid rgba(208, 204, 204, 0.611);
+border-radius: 10px;
+padding-top: 15px; 
+background: white;
+
+width: 45%; 
+height: 70%; 
+}
+
+/*Top*/
+
+div:nth-last-child(3)
+{
+color: rgba(151, 150, 150, 0.878); 
+line-height: 1.6em;
+}
+
+div:nth-last-child(4)
+{
+font-weight: bolder;
+font-size: 25px;
+color: rgba(28, 26, 26, 0.809);
+}
+ 
+p:first-child
+{ 
+color: rgba(67, 67, 67, 0.891);   
+}
+    
+span 
+{ 
+font-weight: bolder;
+color: rgba(28, 28, 28, 0.802);
+}
+
+
+
+/*Top-Grid*/
+
+.top-box 
+{
+display: grid;
+grid-template-columns: 10px repeat(9, 1fr);
+grid-template-rows: 30px 1fr 1fr 1fr 1fr;
+grid-column-gap: 0;
+grid-row-gap: 0;
+border-bottom: rgba(202, 202, 202, 0.364) solid 3px;
+height: 65%;
+}
+
+.box_01 {
+  
+    grid-column-start: 2 ;
+    grid-column-end: 8 ;
+    grid-row-start: 1 ;
+    grid-row-end: 2 ;
+
+    align-items:flex-end;    
+    display: flex;
+}
+
+.box_02 
+{ 
+    grid-column-start: 2 ;
+    grid-column-end: 9 ;
+    grid-row-start: 2;
+    grid-row-end: 3;   
+}
+
+.box_03 
+{
+    grid-column-start: 9 ;
+    grid-column-end: 11 ;
+    grid-row-start: 1 ;
+    grid-row-end: 3;
+}
+
+.box_04 
+{
+    grid-column-start: 2 ;
+    grid-column-end:11;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+/*Bottom*/
+
+.bottom-box
+{
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 30%;
+}
+
+h4
+{
+border: orangered 1px solid;
+width: 80px;
+padding: 10px 50px 10px 50px;
+display: flex;
+justify-content: space-around;
+}
+
+h4:first-of-type
+{
+border-radius: 10px 0 0 10px;
+border: 2.5px  rgb(10, 228, 126) solid;
+border-right: none;
+color: rgb(10, 228, 126);
+}
+
+h4:last-of-type
+{
+border-radius: 0 10px 10px 0;
+border: 2.5px red solid;
+color: red;}
+
+
+
+	/* 
+.option-approve {
+
+}
+.option-decline {
+	*/
